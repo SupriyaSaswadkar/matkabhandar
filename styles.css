@@ -203,3 +203,14 @@ summary li {
   font-size: 20px;
 }
 
+.diwali-grid {
+  display: flex;       /* makes items horizontal */
+  gap: 10px;           /* space between images */
+  flex-wrap: wrap;     /* wrap to next line if screen is small */
+}
+
+.diwali-grid img {
+  width: 250px;        /* fixed width for each image */
+  height: 250px;
+  object-fit: cover;
+}
